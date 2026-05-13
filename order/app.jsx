@@ -1,9 +1,5 @@
-/* global React, ReactDOM, TweaksPanel, useTweaks, TweakSection, TweakRadio, TweakColor, TweakToggle,
-   StepIdentity, StepScope, StepTechDesign, StepTimeline, StepSummary, StepPayment, SuccessScreen,
-   calcTotal, fmtRp */
 const { useState, useEffect } = React;
 
-// ⚠️ Ganti dengan URL Apps Script lo setelah deploy
 const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwyW8N7sdclBS5KSJXThUM7z2SnO0LJkCIiB-fuidRvMQ_ZqQ4B9upWxyl8efT0bZfmeA/exec';
 
 const DEFAULT_PRICING = {
@@ -182,7 +178,7 @@ function App() {
   if (!cfgLoaded) {
     return (
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 16 }}>
-        <div style={{ width: 40, height: 40, borderRadius: 12, background: 'var(--primary)', display: 'grid', placeItems: 'center', color: 'white', fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: 16 }}>{'{K}'}</div>
+        <div style={{ width: 40, height: 40, borderRadius: 12, background: 'var(--primary)', display: 'grid', placeItems: 'center', color: 'white', fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: 16 }}>{'kerjain'}</div>
         <p style={{ color: 'var(--text-muted)', fontSize: 14 }}>Memuat form…</p>
       </div>
     );
